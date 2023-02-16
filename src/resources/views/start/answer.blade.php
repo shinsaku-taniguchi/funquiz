@@ -82,7 +82,7 @@
                                             const response = await axios.post('{{ route("reactions.toggle", ["question" => $question->id]) }}', {
                                                 reaction_id: reaction_id
                                             });
-                                            console.log(response.data);
+                                            // console.log(response.data);
                                             this.reactionId = response.data.reactionId;
                                         },
                                     }

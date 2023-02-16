@@ -14,7 +14,7 @@
                         <div class=" w-1/2 p-6 text-gray-900 dark:text-gray-100">
 
                             <p class="">問題文</p>
-                            <x-text-input id="question" name="description" class="mb-10 h-32 w-4/5 border-2 border-black" required />
+                            <textarea name="description" class="whitespace-pre-line overflow-y-scroll mb-10 h-32 w-4/5 border-2 border-gray-400" required></textarea>
                             <ul>
                                 <li class="mb-5">
                                     <div class="flex justify-between">
@@ -46,7 +46,7 @@
 
                         <div class="w-1/2 p-6">
                             <p class="">解説</p>
-                            <x-text-input id="question" name="answer_description" class="mb-10 h-32 w-4/5 border-2 border-black" />
+                            <textarea id="question" name="answer_description" class="mb-10 h-32 w-4/5 border-2 border-gray-400"></textarea>
 
                             <p>詳細設定</p>
 
