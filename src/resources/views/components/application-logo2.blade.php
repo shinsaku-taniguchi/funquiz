@@ -1,0 +1,1 @@
+<img class="" src="{{ url('linkedin_banner_image_2.png') }}" alt="">
