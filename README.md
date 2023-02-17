@@ -20,7 +20,6 @@ PHP自作
 メールアドレス→admin@example.com
 
 パスワード→password
-()
 
 一般ユーザ
 
